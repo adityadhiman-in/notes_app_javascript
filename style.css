@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    color: var(--tertiary-color);
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+}
+
+:root {
+    --primary-color: #12372A;
+    --secondary-color: #436850;
+    --tertiary-color: #FBFADA;
+    --quaternary-color: #d4deca;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    color: var(--tertiary-color);
+    padding: 4% 0 0 10%;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container button {
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.25rem;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.container button i {
+    margin-right: 10px;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.container button:hover {
+    background: var(--quaternary-color);
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+    min-height: 150px;
+    background: var(--tertiary-color);
+    padding: 20px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.notesContainer p {
+    color: var(--primary-color);
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.delete-btn-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.notesContainer i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.delete-btn-container i{
+    color: var(--tertiary-color);
+}
